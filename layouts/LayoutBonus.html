@@ -6,44 +6,63 @@ body
 {
     width: 600px;
 }
-    
+  @keyframes mymove {
+        from {right: 0px;}
+        to {left: 0px;}
+        
+    }
 div
 {
     display:block;
-    width:400px;
+    width:300px;
     height:200px;
 }
     
 .b1
 {
     background-color:red;
-}
+    position: fixed;
+    animation-name: mymove;
+    animation-duration: 2s;
+    
+    }
+    
 
 .b2
 {
     background-color:yellow;
+    float: left;
+    clear: both;
 }
 
 .b3
 {
     background-color:blue;
     color:white;
+    float: right;
+    clear: both;
 }
 
 .b4
 {
     background-color:orange;
+    float: left;
+    clear: both;
 }
 
 .b5
 {
     background-color:purple;
     color:white;
+    float: right;
+    clear: both;
 }
 
 .b6
 {
     background-color:darksalmon;
+    float: left;
+    clear:both;
 }
 
 
